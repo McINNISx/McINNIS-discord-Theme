@@ -7,6 +7,7 @@
 
 /****ADDONS****/
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css");
+@import url("https://warrayquipsome.github.io/Chillax/ChillaxTag.css");
 @import url("https://warrayquipsome.github.io/Chillax/Addons/SettingsModalEdited.css");
 @import url("https://crearts-community.github.io/Friends-Grid/theme.css");
 @import url("https://neodymium7.github.io/BetterDiscordStuff/CSS/AddServerDarkMode.css");
@@ -199,7 +200,7 @@ html.theme-dark .menu_d90b3d {
 }
 
 html.theme-dark .wordmark_a934d8::before {
-    content: "‏‏‎ c h i l l a x";
+    content: "‏‏‎ M c I N N I S";
     font-size: 12px;
     font-family: "Poiret one" !important;
     position: fixed;
@@ -2999,6 +3000,71 @@ button {
 /*radial status small circle fix*/
 .wrapper-1VLyxH > .svg-2azL_l circle {
     opacity: 0 !important;
+}
+
+/*custom chillax theme card*/
+#Chillax-card .bd-name {
+    font-size: 100px;
+    text-align: left;
+}
+
+#Chillax-card .bd-name::after {
+    font-size: 20px;
+    content: "activated";
+    display: block;
+    margin-top: -20px;
+    margin-left: 15px;
+}
+
+html.theme-dark #Chillax-card .bd-meta {
+    margin-left: 15px;
+    bottom: 25px;
+    color: rgb(226, 226, 226);
+}
+
+#Chillax-card {
+    border: 2px solid var(--accentcolorV2);
+    box-shadow: 0 0 5px var(--accentcolorV2);
+}
+
+#Chillax-card .bd-addon-header {
+    border-bottom: 2px solid var(--accentcolorV2);
+    box-shadow: 0 0 5px var(--accentcolorV2);
+}
+
+#Chillax-card > *:not(#a#B) {
+    background: rgba(var(--accentcolor), .2) !important;
+}
+
+#Chillax-card .bd-description {
+    display: none;
+}
+
+html.theme-dark #Chillax-card [href='https\:\/\/github.com/warrayquipsome/Chillax'] {
+    color: #fff !important;
+}
+
+html.theme-dark #Chillax-card [href='DrfX6286kF'] {
+    color: #fff !important;
+}
+
+.bd-grid-view #Chillax-card .bd-name {
+    font-size: 70px;
+    text-align: left;
+}
+
+.bd-grid-view #Chillax-card .bd-name::after {
+    font-size: 20px;
+    content: "activated";
+    display: block;
+    margin-top: -15px;
+    margin-left: 10px;
+}
+
+html.theme-dark .bd-grid-view #Chillax-card .bd-meta {
+    margin-left: -50px;
+    bottom: 25px;
+    color: rgb(226, 226, 226);
 }
 
 /*nitro badge fix*/
